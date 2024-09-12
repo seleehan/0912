@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        ul li{
+            font-size: 25px;
+        }
+        .cls001 + li {
+            color: red;
+            font-weight: 600;
+        }
+        .cls001 ~ li {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>1번</li>
+        <li class="cls001">2번</li>
+        <li>3번</li>
+        <li>4번</li>
+        <li>5번</li>
+        <li>6번</li>
+    </ul>
+</body>
+</html>

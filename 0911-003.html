@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>애니메이션</title>
+    <style>
+       #load {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 15px solid #eee;
+        border-top: 15px solid dodgerblue;
+        animation: raidar 2s linear infinite;
+       }
+       @keyframes raidar {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+       }
+    </style>
+</head>
+<body>
+    <div id="load">
+       
+    </div>
+</body>
+</html>
